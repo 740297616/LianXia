@@ -1,0 +1,54 @@
+let data=[
+  {
+    "name": "莲·阳",
+    "img": "http://cdn.lianxia.top/static/video/1.《莲·阳》.JPG",
+    "video": "http://cdn.lianxia.top/static/video/1.《莲·阳》.mp4",
+    "videoId": "1"
+  },
+  {
+    "name": "典型引领，谱写莲下“百千万工程”新篇章",
+    "img": "http://cdn.lianxia.top/static/video/2.《典型引领，谱写莲下“百千万工程”新篇章》.jpg",
+    "video": "http://cdn.lianxia.top/static/video/2.《典型引领，谱写莲下“百千万工程”新篇章》.mp4",
+    "videoId": "2"
+  },
+  {
+    "name": "高质量发展点亮美好生活",
+    "img": "http://cdn.lianxia.top/static/video/3.《高质量发展点亮美好生活》.JPG",
+    "video": "http://cdn.lianxia.top/static/video/3.《高质量发展点亮美好生活》.mp4",
+    "videoId": "3"
+  },
+  {
+    "name": "探寻“百千万工程”典型村——程洋冈村",
+    "img": "http://cdn.lianxia.top/static/video/4.《探寻“百千万工程”典型村——程洋冈村》.jpg",
+    "video": "http://cdn.lianxia.top/static/video/4.《探寻“百千万工程”典型村——程洋冈村》.mp4",
+    "videoId": "4"
+  },
+  {
+    "name": "莲下镇动物舞蹈集锦",
+    "img": "http://cdn.lianxia.top/static/video/5.《莲下镇动物舞蹈集锦》.jpg",
+    "video": "http://cdn.lianxia.top/static/video/5.《莲下镇动物舞蹈集锦》.mp4",
+    "videoId": "5"
+  },
+  {
+    "name": "三月花开，春暖莲下",
+    "img": "http://cdn.lianxia.top/static/video/6.《三月花开，春暖莲下》.jpg",
+    "video": "http://cdn.lianxia.top/static/video/6.《三月花开，春暖莲下》.mp4",
+    "videoId": "6"
+  },
+  {
+    "name": "古法匠心，寻味莲下",
+    "img": "http://cdn.lianxia.top/static/video/古法匠心，寻味莲下.jpg",
+    "video": "http://cdn.lianxia.top/static/video/古法匠心，寻味莲下.mp4",
+    "videoId": "7"
+  },
+  {
+    "name": "千年程洋冈，古村焕新彩",
+    "img": "http://cdn.lianxia.top/static/video/千年程洋冈，古村焕新彩.jpg",
+    "video": "http://cdn.lianxia.top/static/video/千年程洋冈，古村焕新彩.mp4",
+    "videoId": "8"
+  }
+]
+
+module.exports = {
+  data: data
+}

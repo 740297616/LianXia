@@ -1,0 +1,197 @@
+let data = [
+  {
+    "id": 0,
+    "name": "蚝烙",
+    "img": "http://cdn.lianxia.top/static/food/蚝烙.png",
+    "text": "<strong>特色介绍</strong>：精选海边鲜美生蚝，红薯粉薄薄摊开，将生蚝和蛋花完美包裹在其中，边缘煎得微焦，淋上些许鱼露提鲜。入口是边缘焦脆又混合生蚝肥美的奇特口感，是潮汕的招牌美食。",
+    "shop": "<strong>可选商店</strong>：银屏蚝烙、灰窑头蚝烙",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/1/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/1/2.jpg"
+      },
+      {
+        "id": 3,
+        "image": "http://cdn.lianxia.top/static/food/imgList/1/3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "猪朥粿",
+    "img": "http://cdn.lianxia.top/static/food/猪朥粿.png",
+    "text": "<strong>特色介绍</strong>：猪朥粿，又名豆糕粿，因其外形酷似凝固猪油，而被潮汕人亲切音译为 “猪朥粿”。大米为主料的猪朥粿，装在特制容器里面，表面莹白如玉，再点缀上潮汕特色菜脯，唤醒了猪朥粿的灵魂。",
+    "shop": "<strong>可选商店</strong>：老牌猪朥粿、建阳猪朥粿",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/2/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/2/2.jpg"
+      },
+      {
+        "id": 3,
+        "image": "http://cdn.lianxia.top/static/food/imgList/2/3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "糖葱薄饼",
+    "img": "http://cdn.lianxia.top/static/food/糖葱薄饼.png",
+    "text": "<strong>特色介绍</strong>：糖葱薄饼，因糖块最终形状酷似葱，外层又包有由面粉制成的薄皮而得名，是很多潮汕人的童年记忆。糖葱的制作过程相当复杂，需经过多次拉糖，空气充分进入糖条当中，才可制出色白如雪，薄而酥脆，入口即化的糖葱内馅。而外层薄皮的制作方式，更是特别，制作者需手握一大块面团，将面团快速均匀地摊在温度极高的炉子上，形成一张张薄皮。垫上薄饼，放上糖葱，撒上芝麻和花生碎。咬上一口，当牙齿破开薄薄的饼皮，丝丝甜味让人无尽留恋。",
+    "shop": "<strong>可选商店</strong>：孝先糖葱薄饼",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/3/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/3/2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "各色炸物",
+    "img": "http://cdn.lianxia.top/static/food/炸物.png",
+    "text": "<strong>特色介绍</strong>：平凡的食材，翻出新的“花样”，将食材捏成花的形状，下入油锅，保证花样不散开，熟透捞出后，金黄色的花再加上点睛红点，是老一辈潮汕人最爱的美食消遣。",
+    "shop": "<strong>可选商店</strong>：莲阳大街阿姨斋菜",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/4/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/4/2.jpg"
+      },
+      {
+        "id": 3,
+        "image": "http://cdn.lianxia.top/static/food/imgList/4/3.jpg"
+      },
+      {
+        "id": 4,
+        "image": "http://cdn.lianxia.top/static/food/imgList/4/4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "粽球",
+    "img": "http://cdn.lianxia.top/static/food/粽球.png",
+    "text": "<strong>特色介绍</strong>：独属潮汕的经典双拼粽，咸甜双拼，将甜咸融合在一起。黑豆沙的软糯香甜，虾仁香菇的咸香，在来上一颗完整的咸蛋黄，在一颗小小粽子身上体味到甜咸两重天的完美融合。",
+    "shop": "<strong>可选商店</strong>：南洋粽球、端本路粽球",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/5/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/5/2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "杏仁芝麻茶",
+    "img": "http://cdn.lianxia.top/static/food/杏仁茶芝麻茶.png",
+    "text": "<strong>特色介绍</strong>：“杏仁清甘能润肺，芝麻香甜可滑肠。”杏仁茶微苦却回甘，芝麻香甜回味悠长。更有经典双拼融合杏仁和芝麻的独特香气。",
+    "shop": "<strong>可选商店</strong>：王雄记",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/6/1.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "鸭母捻",
+    "img": "http://cdn.lianxia.top/static/food/鸭母捻.png",
+    "text": "<strong>特色介绍</strong>：鸭母捻，其实是一种糯米制作的带馅汤圆，因为其煮熟漂浮在水面上的形状像白母鸭浮游于水面上，故称鸭母捻。现点现做，各种各样适配的小料，让整碗甜汤口感丰富，天气炎热，来上一碗甜滋滋的鸭母捻，无疑对身心都是一场酣畅淋漓的解放。",
+    "shop": "<strong>可选商店</strong>：南洋甜汤鸭母捻",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/7/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/7/2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "卤鹅",
+    "img": "http://cdn.lianxia.top/static/food/卤鹅.png",
+    "text": "<strong>特色介绍</strong>：有关潮汕人食卤鹅的记载，最早可追溯到光绪年间的“公固”卤鹅。相传澄海苏南人许松发在家乡敕书楼巷开店卤鹅，该店无论选材配料，还是炖制功夫，均特别严格。首先分春夏秋冬四季选鹅，每只的标准在14至18市斤方能合格，将鹅杀血涤净阴干后，以丁香、川椒、肉桂等18种名贵中药及特制鱼露、酱油为佐料，按比例添水下锅，放入秘传“卤母”。炖锅要选用薄铁皮制造的，每锅放进肥鹅两只，旺火煮沸后，抽火文炖，因常发“公公固固”之声，因此得名“公固鹅肉”。",
+    "shop": "<strong>可选商店</strong>：松发公固",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/8/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/8/2.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "粿品",
+    "img": "http://cdn.lianxia.top/static/food/粿品.png",
+    "text": "<strong>特色介绍</strong>：说到潮汕，米豆粿、菜头粿、芋粿等各种琳琅满目的特色粿点让人们垂涎欲滴。最普通的食材，米浆、白豆、芋头等原材料，在经年手艺和各色佐料的加持下，完成了从原材料到特色美食的华丽蜕变。来上一份粿点，均匀地淋上些许鱼露，品尝莲下独特的粿点调味，再根据口味加上辣椒酱，当经典的原材料混合着独特的调味方式融入口腔，你也成功融入了这座粿点的城市。",
+    "shop": "<strong>可选商店</strong>：三河粿点",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/9/1.jpg"
+      },
+      {
+        "id": 2,
+        "image": "http://cdn.lianxia.top/static/food/imgList/9/2.jpg"
+      },
+      {
+        "id": 3,
+        "image": "http://cdn.lianxia.top/static/food/imgList/9/3.jpg"
+      },
+      {
+        "id": 4,
+        "image": "http://cdn.lianxia.top/static/food/imgList/9/4.jpg"
+      },
+      {
+        "id": 5,
+        "image": "http://cdn.lianxia.top/static/food/imgList/9/5.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "猪头粽",
+    "img": "http://cdn.lianxia.top/static/food/猪头粽.png",
+    "text": "<strong>特色介绍</strong>：猪头肉是猪头粽的必备原材料，辅以肥瘦相间的其他部位猪肉，最开始是以竹壳竹叶包裹，便得名猪头粽。独家技艺的调味方法，让猪头粽弹牙的同时不过于生硬，独特的咸鲜口味，令人唇齿留香。",
+    "shop": "<strong>可选商店</strong>：深记号正老雷",
+    "imglist": [
+      {
+        "id": 1,
+        "image": "http://cdn.lianxia.top/static/food/imgList/10/1.jpg"
+      }
+    ]
+  }
+]
+
+
+module.exports = {
+	data: data
+}

@@ -1,0 +1,79 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/food/food",
+			"style" : 
+			{
+				"navigationBarTitleText" : "小吃"
+			}
+		},
+		{
+			"path" : "pages/shop/shop",
+			"style" : 
+			{
+				"navigationBarTitleText" : "名店"
+			}
+		},
+		{
+			"path" : "pages/tourism/tourism",
+			"style" : 
+			{
+				"navigationBarTitleText" : "美景"
+			}
+		},
+		{
+			"path" : "pages/video/video",
+			"style" : 
+			{
+				"navigationBarTitleText" : "地方风采"
+			}
+		}
+	],
+	
+	"tabBar": {
+		"color": "#000",
+		"selectedColor": "#6A4723",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"text": "简介",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabBar/首页（未点）.png",
+				"selectedIconPath": "static/tabBar/首页（点击后）.png"
+			},
+			{
+				"text": "美景",
+				"pagePath": "pages/tourism/tourism",
+				"iconPath": "static/tabBar/地图1（未点）.png",
+				"selectedIconPath": "static/tabBar/地图1（点击后）.png"
+			},
+			{
+				"text": "名店",
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/tabBar/美食商家（未点）.png",
+				"selectedIconPath": "static/tabBar/美食商家（点击后）.png"
+			},
+			{
+				"text": "小吃",
+				"pagePath": "pages/food/food",
+				"iconPath": "static/tabBar/小吃（未点）.png",
+				"selectedIconPath": "static/tabBar/小吃（点击后）.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	
+	"uniIdRouter": {}
+}

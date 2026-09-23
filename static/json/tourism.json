@@ -1,0 +1,695 @@
+let data = [{
+		"Name": "建阳村侨史室",
+		"Introduction": "建阳村侨史室于2022年1月份建成，是澄海区首家村级侨史室，分为侨史名贤墙、文化墙、文物展示三个功能区。侨批“进驻”、藏品镇馆，其背后是无数动人的“番客”故事。走进侨史馆，聆听侨胞名贤故事，观赏侨批、华侨信函等文物，沉浸式感受前辈们四海闯荡、纵横经纬、爱国爱家的一腔热血和桑梓情怀。",
+		"Address": "广东省汕头市澄海区上新路与莲凤路交叉口东北150米",
+		"lat": 116.789009,
+		"lng": 23.491529,
+		"id": 1,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/1/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/1/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/1/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/1/4.png"
+			}
+		]
+	},
+	{
+		"Name": "建阳乐园",
+		"Introduction": "“建阳乐园”占地18亩，1989年，由新加坡侨亲吴松泉独资修建，是汕头第一座农民公园。侨胞心系桑梓，多次捐资增设小桥、观景平台、假山、休闲凉亭等设施。整个园区因水而灵，莲花池内鱼鸭嬉戏、栈道蜿蜒、拱桥飞跨，漫步其中，感受葱郁怀抱、古色古香的景观特色。",
+		"Address": "广东省汕头市澄海区莲下镇建阳村文明路127号益童学生服务部",
+		"lat": 116.786655,
+		"lng": 23.489608,
+		"id": 2,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/2/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/2/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/2/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/2/5.png"
+			},
+			{
+				"id": 5,
+				"image": "http://cdn.lianxia.top/static/wenlv/2/6.png"
+			}
+		]
+	},
+	{
+		"Name": "建阳党建主题广场",
+		"Introduction": "2023年7月1日上午，莲下镇建阳村举行党建主题广场开放暨党群服务站揭牌仪式。党建主题广场占地面积约6.8亩。建阳村将党建主题广场打造成为集党建教育、休闲娱乐、便民停车为一体的综合性场所。主题广场融入了党的历史及重大事件、思想飞跃、精神谱系等党建元素。",
+		"Address": "广东省汕头市澄海区文明路",
+		"lat": 116.789826,
+		"lng": 23.49447,
+		"id": 3,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/3/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/3/2.png"
+			}
+		]
+	},
+	{
+		"Name": "许氏家庙",
+		"Introduction": "位于许厝村，占地2.8亩。明嘉靖年间，乡人许尚静任江西南昌府同知，遂建造这座祠堂。清康熙二十年，水师右都督许龙敕封荣禄大夫后，扩建祠堂，增建两畔花巷及后畔浮坛五凤楼，仿造皇宫建筑。照壁上麒麟跪三足，示正一品衔。祠堂内浮雕人物栩栩如生。迈进高高的门第，抬眼看壁上浮雕，穿越千古，望见许氏前人风姿。属于澄海区不可移动文物点。",
+		"Address": "坟埕片区，广东省汕头市澄海区敦中路附近",
+		"lat": 116.78501,
+		"lng": 23.498899,
+		"id": 4,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/4/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/4/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/4/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/4/4.png"
+			},
+			{
+				"id": 5,
+				"image": "http://cdn.lianxia.top/static/wenlv/4/5.png"
+			}
+		]
+	},
+	{
+		"Name": "馨乐园",
+		"Introduction": "沟内馨乐园位于中兴路东面，配备灯光篮球场、乒乓球桌、健身器材、休闲凉亭、灯光舞池、休闲长廊，为周边群众提供了一个休闲娱乐好场所。茶余饭后的休闲时光，来到馨乐园，孩童嬉笑打闹，老者谈笑风生，感受一抹夏日清风。",
+		"Address": "莲下镇沟内村委会，广东省汕头市澄海区中兴路东100米",
+		"lat": 116.796999,
+		"lng": 23.486964,
+		"id": 5,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/5/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/5/2.png"
+			}
+		]
+	},
+	{
+		"Name": "陶源谷农场",
+		"Introduction": "陶源谷智慧农场位于莲下镇潜溪村前洋片区。园区以潮汕农耕文化为主题，建设二十四节气文化长廊，并开放水稻、小麦、台湾藜麦、果树、花卉、中青药等大棚种养基地，是集农业观光、亲子习农、游学教育、文化研习、耕读文化于一体的花园式农场。到此沉浸式体验新时代的农耕生活，品尝无公害蔬果和农产品，在田间围炉煮茶，烤玉米、烧甘蔗，品茗闻香，谈古论今，享受大自然的美好时光。",
+		"Address": "广东省汕头市澄海区莲下镇潜溪村黄家宗祠斜对面",
+		"lat": 116.753631,
+		"lng": 23.519784,
+		"id": 6,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/6/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/6/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/6/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/6/4.png"
+			}
+		]
+	},
+	{
+		"Name": "滨河洲公园",
+		"Introduction": "趁着饭后留有一点斜阳，漫步闲聊，看一江橙练，看一片绿茵。",
+		"Address": "长磊片区，澄海区",
+		"lat": 116.757348,
+		"lng": 23.511527,
+		"id": 7,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/7/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/7/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/7/3.png"
+			}
+		]
+	},
+	{
+		"Name": "北湾文化公园",
+		"Introduction": "北湾村文化公园于2015年建成。建筑面积约1000平方米，是村民们必去的休闲打卡点，也是全民健身中心。",
+		"Address": "广东省汕头市澄海区南北路",
+		"lat": 116.815312,
+		"lng": 23.480747,
+		"id": 8,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/8/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/8/3.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/8/4.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/8/5.png"
+			},
+			{
+				"id": 5,
+				"image": "http://cdn.lianxia.top/static/wenlv/8/6.png"
+			}
+		]
+	},
+	{
+		"Name": "北湾文明广场",
+		"Introduction": "在北湾村有一座建于民国二十年的“文明桥”，它是该村文明历史的象征与名片，更是当地人的精神寄托。北湾村在乡贤和众多村民的捐资支持下将其进行修缮，并通过“三清三拆”后，建设了30多亩的公园广场，以“文明广场”命名，希望将“文明”一直沿袭下去。并规划建设景观池塘、凉亭、儿童水上乐园和篮球场，打造成集娱乐健身于一体的综合性公园广场。",
+		"Address": "广东省汕头市澄海区东升幼儿园西北",
+		"lat": 116.809148,
+		"lng": 23.482035,
+		"id": 9,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/9/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/9/3.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/9/4.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/9/5.png"
+			}
+		]
+	},
+	{
+		"Name": "王鼎新故居",
+		"Introduction": "王鼎新故居位于松柏秋巷，是岭东著名教育家、书法家王鼎新青少年时代生活和学习的地方。其建筑格局为潮汕典型的“双背剑”，主座为一座“四点金”，两侧各建有一排排屋，称为“花巷”，整座建筑占地约400平米、其外观保持较好。",
+		"Address": "槐泽村，澄海区丽泽路附近",
+		"lat": 116.786426,
+		"lng": 23.499853,
+		"id": 10,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/10/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/10/2.png"
+			}
+		]
+	},
+	{
+		"Name": "窖东公园",
+		"Introduction": "沿着台阶走上窖东公园，挺拔苍劲的大树下，错落有致的凉亭，长长的休闲长廊雅致美观，村民在亭内乘凉休憩，这里已然成为夏日清凉的一方小天地。",
+		"Address": "澄海区窖新路附近",
+		"lat": 116.760156,
+		"lng": 23.538085,
+		"id": 11,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/11/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/11/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/11/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/11/4.png"
+			}
+		]
+	},
+	{
+		"Name": "佬园山公园",
+		"Introduction": "窖西村自然风光十分独特，一面临水三面环山。“缶灶山”、“吴厝山”、“佬园山”三座山顶公园环抱古村。“吴厝山”“佬园山”休闲绿道公园一建成便成为村民群众休闲散步的好场所。",
+		"Address": "澄海区窖新路附近",
+		"lat": 116.760156,
+		"lng": 23.538085,
+		"id": 12,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/12/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/12/2.png"
+			}
+		]
+	},
+	{
+		"Name": "蔡寮荣禄第",
+		"Introduction": "该荣禄第原是潮汕典型民居驷马拖车结构。现在，原有的前埕、后花园等空地已建为民宅，只剩下中轴主体建筑的三进厅房。御赐的“福”字木匾就悬挂在中厅。木匾上面书有“御赐”二字，中间书一“福”字，左右分别有“雍正十二年四月十二日”、“荣禄大夫署福建全省水师提督总兵官陈勇”之题款，木匾周围刻上浮雕漆金龙六条。属于澄海区不可移动文物点。",
+		"Address": "东财片区，澄海区莲南路附近",
+		"lat": 116.787065,
+		"lng": 23.486142,
+		"id": 13,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/13/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/13/2.png"
+			}
+		]
+	},
+	{
+		"Name": "立德乐琴间馆",
+		"Introduction": "“闲间”是旧时潮汕乡间的公共休闲空间，又叫“间馆”“间格”。在“食茶䛩冇”、文娱活动中，人们完成了信息交流、感情联络。有人评论：闲间就是一个“朋友圈”。属于澄海区不可移动文物点。",
+		"Address": "立德幼儿园，广东省汕头市澄海区崇正路附近",
+		"lat": 116.783714,
+		"lng": 23.497009,
+		"id": 14,
+		"from": "图片来源：澄海美食顾问公众号",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/14/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/14/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/14/3.png"
+			}
+		]
+	},
+	{
+		"Name": "莲阳公园",
+		"Introduction": "莲阳公园位于莲阳河东侧的莲下镇渡亭村洲园片，占地约100亩。这里绿树芳草、亭台水榭、小径石栏，是周边群众休息、游览、开展文娱活动的好去处。1公里长的临江绿道，配套行人休憩观光凉亭和石椅，踏青、谈笑、嬉戏，静静坐、慢慢走，在这里享受慢时光，静美且惬意。",
+		"Address": "广东省汕头市澄海区莲东一路",
+		"lat": 116.78528,
+		"lng": 23.47954,
+		"id": 15,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/15/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/15/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/15/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/15/4.png"
+			}
+		]
+	},
+	{
+		"Name": "丹砂古寺",
+		"Introduction": "丹砂古寺位于虎丘山西麓，是澄海区文物保护单位。明成化十三年建，为土木结构的中轴线硬山顶三进建筑。全寺坐东向西，依山而建，是粤东少有的集儒、释、道三教合祀，寺中还有厢房、花圃、藏经阁、磨针亭、演武厅、月旦堂、禅师塔等。 寺有三宝：木鱼、陨石香炉、古凤竹。",
+		"Address": "广东省汕头市澄海区莲下镇程洋冈",
+		"lat": 116.755753,
+		"lng": 23.52442,
+		"id": 16,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/16/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/16/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/16/3.png"
+			}
+		]
+	},
+	{
+		"Name": "杏园书屋",
+		"Introduction": "书香氤氲、紫藤花开。杏园书屋建于清乾隆年间，分前后两院，坐东南向西北，占地约387平方米。建筑精致而幽美，书斋文人汇聚，见证了程洋冈的人文荟萃。清代宰相太学士刘墉亲自题写的“题襟馆”匾额挂于书屋正上方。如今的杏园书屋不但是盛放历史的一隅，更成为琴棋书画雅集、潮汕民俗文化展示的空间载体。属于澄海区不可移动文物点。",
+		"Address": "广东省汕头市澄海区程洋岗古林东南(231省道西）",
+		"lat": 116.751642,
+		"lng": 23.522883,
+		"id": 17,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/4.png"
+			},
+			{
+				"id": 5,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/5.png"
+			},
+			{
+				"id": 6,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/6.png"
+			},
+			{
+				"id": 7,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/7.png"
+			},
+			{
+				"id": 8,
+				"image": "http://cdn.lianxia.top/static/wenlv/17/8.png"
+			}
+		]
+	},
+	{
+		"Name": "古葵庵",
+		"Introduction": "古葵庵原名“寰竹寺”“还照寺”，原建于程洋冈凤山外，现旧址尚存残石、墙壁，少量石柱保留完整。现移建儒林山下，为潮式硬山顶建筑，门额上题有“梵天别界”四字。正殿壁画出自名画师高澄江之手，画技精湛，宛若真人。",
+		"Address": "广东省汕头市澄海区莲下镇程洋岗",
+		"lat": 116.74948,
+		"lng": 23.521456,
+		"id": 18,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/18/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/18/2.png"
+			}
+		]
+	},
+	{
+		"Name": "蔡氏宗祠",
+		"Introduction": "该祠建于明成化年间，格局为“单背剑”。继更建于明崇祯十三年，后遭拆荡而毁；清康熙九年建后座；康熙十五年建拜亭及两廊；康熙四十九年立有《崇祀配享碑记》。该祠位于乡中心坪埔山东南侧，东临“巷口内池”，主座坐西北朝东南，建筑面积约2亩。1939年6月21日，澄海失陷，程洋冈蔡氏宗祠曾作为澄海县政府临时迁驻地。2003年至2004年，由海内外族亲集资重光，保留明代旧貌。属于澄海区不可移动文物点。",
+		"Address": "澄海区莲下镇架下路(程洋岗古林西南侧)",
+		"lat": 116.750789,
+		"lng": 23.522368,
+		"id": 19,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/19/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/19/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/19/3.png"
+			}
+		]
+	},
+	{
+		"Name": "古榕道",
+		"Introduction": "古榕道长约600米，从西至东汇集宋明清民国各朝代建筑群，各有特色。漫步在程洋冈村的街头巷尾，踏着仄仄不平的石板路，看着炊烟袅袅，古树参天，屋舍俨然，灰瓦红砖，感受历史脉动。",
+		"Address": "澄海区莲下天天大幼儿园，广东省汕头市澄海区梅轩巷10号",
+		"lat": 116.755069,
+		"lng": 23.523158,
+		"id": 20,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/20/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/20/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/20/3.png"
+			}
+		]
+	},
+	{
+		"Name": "晏侯庙",
+		"Introduction": "位于程洋冈村厦厝，建于明万历三十五年，民国二十四年重修，1986年再重修。祀晏侯，庙中建有“中流砥柱”石牌坊一座。到这里，回味晏侯之正直人格，思索古港人对中流砥柱的祈望，听海上遇难晏爷显圣的故事，别有一番趣味。庙中有一年迈守庙人，庙前常有一群嬉戏玩耍的儿童，当老幼相遇，在晏侯庙前，激荡起岁月的记忆。属于澄海区不可移动文物点。",
+		"Address": "广东省汕头市澄海区顺兴街程洋岗幼儿园南侧约190米",
+		"lat": 116.751039,
+		"lng": 23.520799,
+		"id": 21,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/21/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/21/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/21/3.png"
+			}
+		]
+	},
+	{
+		"Name": "竹林书舍",
+		"Introduction": "竹林书舍位于程洋冈村杉门2巷10号，面积约90平方米，中式建筑，入口为传统月洞门，代表古人“天圆地方”理念。院内种植数盆兰花，与古香古色的书舍相得益彰。",
+		"Address": "广东省汕头市澄海区S231",
+		"lat": 116.753106,
+		"lng": 23.523775,
+		"id": 22,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/22/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/22/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/22/3.png"
+			}
+		]
+	},
+	{
+		"Name": "树根门（仙巷口）",
+		"Introduction": "程洋冈村仙巷口的门楼上，骑生着一株古榕。时光流转，榕树的无数气根顺着门楼蜿蜒而下，门长成树，树变成了门，构成一幅独特的自然景观。",
+		"Address": "程洋冈古林，广东省汕头市澄海区S231附近",
+		"lat": 116.751319,
+		"lng": 23.523306,
+		"id": 23,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/23/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/23/2.png"
+			}
+		]
+	},
+	{
+		"Name": "庸祖祠（述德堂）",
+		"Introduction": "系蔡氏三房公分祠，位于永兴街口北面，坐东南朝西北，始建于明崇祯年间。1984年，海内外族亲捐资重修。该祠占地面积约1.3亩。祠堂古朴，静听蔡氏后人讲述前辈故事，又似讲德述形，又名“述德堂”。",
+		"Address": "程洋冈古林，广东省汕头市澄海区S231附近",
+		"lat": 116.751991,
+		"lng": 23.523069,
+		"id": 27,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/27/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/27/2.png"
+			}
+		]
+	},
+	{
+		"Name": "古朴宋街",
+		"Introduction": "永兴街被当地人称为宋街，是程洋冈最古老的街道，宋代以来就形成了繁荣的市集，至今保存完整，仍是村内的商贸中心，犹如一幅活的“清明上河图”。",
+		"Address": "程洋冈古林，广东省汕头市澄海区S231附近",
+		"lat": 116.752029,
+		"lng": 23.522939,
+		"id": 29,
+		"from": "",
+		"imglist": [{
+			"id": 1,
+			"image": "http://cdn.lianxia.top/static/wenlv/29/1.png"
+		}]
+	},
+	{
+		"Name": "虎丘山摩崖石刻群",
+		"Introduction": "位于程洋冈虎丘山。巨石欹立，林木森蔚。虎丘山摩崖石刻是澄海区重点文物保护单位。国学大师饶宗颐题为“粤东襟喉，潮州门户”便位于此。当古今石刻碰撞，又与今人相遇。深深镌刻进石头的碑文刻字，其间蕴含的历史、承载的文化，如和风细雨般，流淌入记忆的深处。",
+		"Address": "澄海区锦华丰有限公司，广东省汕头市澄海区S231附近",
+		"lat": 116.756934,
+		"lng": 23.528249,
+		"id": 24,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/24/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/24/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/24/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/24/4.png"
+			},
+			{
+				"id": 5,
+				"image": "http://cdn.lianxia.top/static/wenlv/24/5.png"
+			}
+		]
+	},
+	{
+		"Name": "乃秋小庐",
+		"Introduction": "乃秋小庐为澄邑近代著名书法家许乃秋先生故居，“乃秋小庐”匾为乃秋先生自题。其书作大字刚健精严，小字则俊美清新，以行、楷二体见长。纸本墨迹多散佚不见，现村中尚存其手迹石刻多处。小庐小巧而精致，书韵幽静，临池树荫，鸟语花馨，在乃秋小庐诸多碑刻中探寻乃秋先生风貌。",
+		"Address": "程洋冈六联，广东省汕头市澄海区S231附近",
+		"lat": 116.754066,
+		"lng": 23.522955,
+		"id": 25,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/25/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/25/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/25/3.png"
+			},
+			{
+				"id": 4,
+				"image": "http://cdn.lianxia.top/static/wenlv/25/4.png"
+			},
+			{
+				"id": 5,
+				"image": "http://cdn.lianxia.top/static/wenlv/25/5.png"
+			}
+		]
+	},
+	{
+		"Name": "鸡翁树",
+		"Introduction": "程洋冈村西小山岗上有巨石，石缝里长着一株榕树，枝叶繁茂，远远望去，形似昂首雄鸡立于山巅，大有金鸡独立的气概，故乡人称为鸡翁树。鸡翁山地势突出，位置特珠，四望无阻。鸡翁树是程洋冈村渔人独特的指向标，从前海外归侨乘船到汕头妈屿外，便可望到这株“航标树”。",
+		"Address": "汕头市澄海区路路通混凝土有限公司，澄海区",
+		"lat": 116.748166,
+		"lng": 23.518784,
+		"id": 26,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/26/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/26/2.png"
+			}
+		]
+	},
+	{
+		"Name": "郑氏宗祠",
+		"Introduction": "郑氏宗祠，又名通德堂，始建于清康熙年间。该祠坐北朝南，占地约1.3亩。1939年澄海失陷时曾作为澄海县银行金库临时迁驻地。",
+		"Address": "广东省汕头市澄海区顺兴街程洋岗幼儿园南侧",
+		"lat": 116.751276,
+		"lng": 23.524116,
+		"id": 28,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/28/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/28/2.png"
+			},
+			{
+				"id": 3,
+				"image": "http://cdn.lianxia.top/static/wenlv/28/3.png"
+			}
+		]
+	},
+	{
+		"Name": "林氏宗祠",
+		"Introduction": "林氏宗祠，又名世亨堂，始建于明成化五年，为沈渠所建。初建时只建五过间，清康熙四十七年改建成现在格局。该祠坐西北朝东南，占地约1.2亩，1942年12月被日寇焚毁，1986年由旅外侨亲发起重建。",
+		"Address": "广东省汕头市澄海区程洋冈村仙美池后面",
+		"lat": 116.749667,
+		"lng": 23.530285,
+		"id": 30,
+		"from": "",
+		"imglist": [{
+				"id": 1,
+				"image": "http://cdn.lianxia.top/static/wenlv/30/1.png"
+			},
+			{
+				"id": 2,
+				"image": "http://cdn.lianxia.top/static/wenlv/30/2.png"
+			}
+		]
+	}
+]
+module.exports = {
+	data: data
+}
